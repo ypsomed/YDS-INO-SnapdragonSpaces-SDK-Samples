@@ -1,0 +1,673 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.String ComponentVersionDisplay::get_ComponentNameText()
+extern void ComponentVersionDisplay_get_ComponentNameText_m293A520657688DE478C403831CBD2E5F0DA854B0 (void);
+// 0x00000002 System.Void ComponentVersionDisplay::set_ComponentNameText(System.String)
+extern void ComponentVersionDisplay_set_ComponentNameText_m0D06537C61D0DD0FD2C7556A32334F904A7FD14D (void);
+// 0x00000003 System.String ComponentVersionDisplay::get_VersionIdentifierText()
+extern void ComponentVersionDisplay_get_VersionIdentifierText_mD50A6722B461344A47B6E9E107B468B783BF77B6 (void);
+// 0x00000004 System.Void ComponentVersionDisplay::set_VersionIdentifierText(System.String)
+extern void ComponentVersionDisplay_set_VersionIdentifierText_m0A8E9B1676B0853224E208BD2629AFE09605F585 (void);
+// 0x00000005 System.String ComponentVersionDisplay::get_BuildIdentifierText()
+extern void ComponentVersionDisplay_get_BuildIdentifierText_m79CE6A2AEC7D910D3D9CD9E939DF84B894D293CB (void);
+// 0x00000006 System.Void ComponentVersionDisplay::set_BuildIdentifierText(System.String)
+extern void ComponentVersionDisplay_set_BuildIdentifierText_m9E9DC57342E0857E73BC7F79E3466F2BF3046F25 (void);
+// 0x00000007 System.String ComponentVersionDisplay::get_BuildDateTimeText()
+extern void ComponentVersionDisplay_get_BuildDateTimeText_m400DC703790BDF4648EF2F7C89355FA020FF3D56 (void);
+// 0x00000008 System.Void ComponentVersionDisplay::set_BuildDateTimeText(System.String)
+extern void ComponentVersionDisplay_set_BuildDateTimeText_mA2D62258B34D953962A7E7AFB462A898C15A8CE6 (void);
+// 0x00000009 System.Void ComponentVersionDisplay::.ctor()
+extern void ComponentVersionDisplay__ctor_m664EE207487BC7313F7E7D694668C9C01D9E90FB (void);
+// 0x0000000A System.Void GazeHoverOverride::.ctor()
+extern void GazeHoverOverride__ctor_m3238EBF46E85A3ACB340A93579D460A4BBA39F03 (void);
+// 0x0000000B UnityEngine.Events.UnityAction`1<System.Boolean> Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::get__onToggleChangedAction()
+extern void AnchorSampleController_get__onToggleChangedAction_m7995E95C60F511DD40C2E9C763F7E957F1068AF0 (void);
+// 0x0000000C System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::Awake()
+extern void AnchorSampleController_Awake_mFBF428DC8D1DCA2C3AE4F378B85F3559B59A4156 (void);
+// 0x0000000D System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::Start()
+extern void AnchorSampleController_Start_mE39645C7494A73F74EC21EBE95145C7EA60E21BB (void);
+// 0x0000000E System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnEnable()
+extern void AnchorSampleController_OnEnable_m939BAADC4DC3A705E0082F87253CE59BEEB84E74 (void);
+// 0x0000000F System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnDisable()
+extern void AnchorSampleController_OnDisable_m5595267F25FCC42BBF15AEFD026832F3D51C6756 (void);
+// 0x00000010 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnCreateButtonClicked()
+extern void AnchorSampleController_OnCreateButtonClicked_m45D7686390E64DD7A1C667A47707E805715DCA13 (void);
+// 0x00000011 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnTriggerAction(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void AnchorSampleController_OnTriggerAction_mC7B03BD24CE190D8183984F3B7A6310997C80EFF (void);
+// 0x00000012 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnAnchorsChanged(UnityEngine.XR.ARFoundation.ARAnchorsChangedEventArgs)
+extern void AnchorSampleController_OnAnchorsChanged_mF15095048794AADA9EA359376947F60293FB4D1F (void);
+// 0x00000013 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::Update()
+extern void AnchorSampleController_Update_m6FB11FD011A3F86B822AD14B90306954D5298DAB (void);
+// 0x00000014 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::InstantiateGizmos()
+extern void AnchorSampleController_InstantiateGizmos_m458EF042D8530E8C715DB8C435631D394056300E (void);
+// 0x00000015 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::LoadAllSavedAnchors()
+extern void AnchorSampleController_LoadAllSavedAnchors_m2AE3121BD194D278199F0A324B5D0FD2F8CE2207 (void);
+// 0x00000016 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::ClearAnchorStore()
+extern void AnchorSampleController_ClearAnchorStore_mB7654422F115A8BCD03D327215130316AB132828 (void);
+// 0x00000017 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::DestroyGizmos()
+extern void AnchorSampleController_DestroyGizmos_m250F6874B798CF1BDB3D9B67B44D7F3C57692D49 (void);
+// 0x00000018 System.Collections.IEnumerator Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::DestroyGizmosCoroutine()
+extern void AnchorSampleController_DestroyGizmosCoroutine_m30C354202353660B4BEC01DA48C32EECC0174EB5 (void);
+// 0x00000019 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::UpdateCreateButtonUI(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void AnchorSampleController_UpdateCreateButtonUI_m7751ABD90B48990CC7BC9274539FE777FB84E787 (void);
+// 0x0000001A System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnPointerEnterEvent()
+extern void AnchorSampleController_OnPointerEnterEvent_m4D2C18BBB2940B3A6BD3FC2DD52031E17503698F (void);
+// 0x0000001B System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::OnPointerExitEvent()
+extern void AnchorSampleController_OnPointerExitEvent_m3EDF9CB40D889FA480AFEC2617806187B36219F3 (void);
+// 0x0000001C System.Boolean Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::CheckSubsystem()
+extern void AnchorSampleController_CheckSubsystem_mE02C113FCB32F317190C03480095F824F272EFA8 (void);
+// 0x0000001D System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::.ctor()
+extern void AnchorSampleController__ctor_mF9D2ECD2E7F9F259398EB3C88A82ED241C141ABE (void);
+// 0x0000001E System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::<get__onToggleChangedAction>b__25_0(System.Boolean)
+extern void AnchorSampleController_U3Cget__onToggleChangedActionU3Eb__25_0_mC0D33778DA6EFBA587C28AB04DA2413FE8AA0531 (void);
+// 0x0000001F System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::<Start>b__27_0(System.Boolean)
+extern void AnchorSampleController_U3CStartU3Eb__27_0_m4B1D458F25523559F944ABEC3DA4B0BD371DFFF3 (void);
+// 0x00000020 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController::<InstantiateGizmos>b__34_0(System.Boolean)
+extern void AnchorSampleController_U3CInstantiateGizmosU3Eb__34_0_mB764D00958992050876E56B3E91AC14E787E6694 (void);
+// 0x00000021 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<>c::.cctor()
+extern void U3CU3Ec__cctor_mB10CD9647F9931EA523F51987FE2366BE9FDEB01 (void);
+// 0x00000022 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<>c::.ctor()
+extern void U3CU3Ec__ctor_mBFF4E6B9BF500E2D8E2761FA8260AA4C2DC71FC8 (void);
+// 0x00000023 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<>c::<LoadAllSavedAnchors>b__35_0(System.Boolean)
+extern void U3CU3Ec_U3CLoadAllSavedAnchorsU3Eb__35_0_m736BB856355DE70D8A5F405B85116BCF4744067B (void);
+// 0x00000024 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<DestroyGizmosCoroutine>d__38::.ctor(System.Int32)
+extern void U3CDestroyGizmosCoroutineU3Ed__38__ctor_m75D3673F56EE021D97D9C1E87C4CA8E1A4646D0F (void);
+// 0x00000025 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<DestroyGizmosCoroutine>d__38::System.IDisposable.Dispose()
+extern void U3CDestroyGizmosCoroutineU3Ed__38_System_IDisposable_Dispose_mBDFABB75BBD56DD555BF68F871531D69771956F7 (void);
+// 0x00000026 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<DestroyGizmosCoroutine>d__38::MoveNext()
+extern void U3CDestroyGizmosCoroutineU3Ed__38_MoveNext_m35713AB4F0CF3AB675345CF5174DEAFD70E8C17A (void);
+// 0x00000027 System.Object Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<DestroyGizmosCoroutine>d__38::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDestroyGizmosCoroutineU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBCF46FFA910B5C5B0B6AB58CFF0DFC738C289BDE (void);
+// 0x00000028 System.Void Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<DestroyGizmosCoroutine>d__38::System.Collections.IEnumerator.Reset()
+extern void U3CDestroyGizmosCoroutineU3Ed__38_System_Collections_IEnumerator_Reset_mE1FDA3F57A28B07406AEAAF252DF528738EB1715 (void);
+// 0x00000029 System.Object Qualcomm.Snapdragon.Spaces.Samples.AnchorSampleController/<DestroyGizmosCoroutine>d__38::System.Collections.IEnumerator.get_Current()
+extern void U3CDestroyGizmosCoroutineU3Ed__38_System_Collections_IEnumerator_get_Current_mCF8A64F2F2540ADC7524345AD035FA1524AD6C30 (void);
+// 0x0000002A System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::Awake()
+extern void CameraFrameAccessSampleController_Awake_m928D0DBFEB116055F2E88D8C3DD8CD71722C9D15 (void);
+// 0x0000002B System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::Start()
+extern void CameraFrameAccessSampleController_Start_mBF793A9875F2A524FFFEA3A218F428F39C31B749 (void);
+// 0x0000002C System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::Update()
+extern void CameraFrameAccessSampleController_Update_m1AB6825707A31A823DFAE31364EF7AFF6A614A06 (void);
+// 0x0000002D System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::UpdateCameraTexture(UnityEngine.XR.ARSubsystems.XRCpuImage)
+extern void CameraFrameAccessSampleController_UpdateCameraTexture_m9165D3F1DA86BFFAC9271999AF31935D948DCA06 (void);
+// 0x0000002E System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::UpdateCameraIntrinsics()
+extern void CameraFrameAccessSampleController_UpdateCameraIntrinsics_m7233520B82D4F00F6159B76056D0223FA4EF5CE4 (void);
+// 0x0000002F System.Boolean Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::FindSupportedConfiguration()
+extern void CameraFrameAccessSampleController_FindSupportedConfiguration_m1ADDE8930F47934BBAAB19C28769D79D99C159CE (void);
+// 0x00000030 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::CheckDeviceSupported()
+extern void CameraFrameAccessSampleController_CheckDeviceSupported_m4BFE13F910DDCA7110E5FEB1882D4E74B1D3F0C0 (void);
+// 0x00000031 System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::OnDeviceNotSupported()
+extern void CameraFrameAccessSampleController_OnDeviceNotSupported_m37D9C8604C9CB44F552668135DD2E01C8CDDB8BB (void);
+// 0x00000032 System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::OnPausePress()
+extern void CameraFrameAccessSampleController_OnPausePress_mD41F2553832028C58F80987EECE362883689DC40 (void);
+// 0x00000033 System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::OnResumePress()
+extern void CameraFrameAccessSampleController_OnResumePress_mB933CE1C465095D2629F4EFC19DDACFFEA73C17C (void);
+// 0x00000034 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::CheckSubsystem()
+extern void CameraFrameAccessSampleController_CheckSubsystem_mF029F85A5AA1CB92E1F2DAEE30F8854091253AE0 (void);
+// 0x00000035 System.Void Qualcomm.Snapdragon.Spaces.Samples.CameraFrameAccessSampleController::.ctor()
+extern void CameraFrameAccessSampleController__ctor_m720C1F339975EFB6546EED890E4619BFA7D5910D (void);
+// 0x00000036 System.Void Qualcomm.Snapdragon.Spaces.Samples.HitTestingSampleController::Awake()
+extern void HitTestingSampleController_Awake_mA765655A37D2F019E8DBD7CECE58106015943CBC (void);
+// 0x00000037 System.Void Qualcomm.Snapdragon.Spaces.Samples.HitTestingSampleController::Start()
+extern void HitTestingSampleController_Start_m26B9AEDC53EA3F0C0D275637D4119433E0D85D8A (void);
+// 0x00000038 System.Void Qualcomm.Snapdragon.Spaces.Samples.HitTestingSampleController::Update()
+extern void HitTestingSampleController_Update_m6F5070C0F84772D802EBE9368928CE6E40C75469 (void);
+// 0x00000039 System.Void Qualcomm.Snapdragon.Spaces.Samples.HitTestingSampleController::CastRay()
+extern void HitTestingSampleController_CastRay_mFC22A0A6EBD40283A54A37411F2E276F07CF1C0D (void);
+// 0x0000003A System.Boolean Qualcomm.Snapdragon.Spaces.Samples.HitTestingSampleController::CheckSubsystem()
+extern void HitTestingSampleController_CheckSubsystem_mEEF1BD3AFB0D8832F837C877E9A6C63D8A6C856B (void);
+// 0x0000003B System.Void Qualcomm.Snapdragon.Spaces.Samples.HitTestingSampleController::.ctor()
+extern void HitTestingSampleController__ctor_m3B9B8A335694B6DBA1ECE2575E45C7133E721BE8 (void);
+// 0x0000003C System.Void Qualcomm.Snapdragon.Spaces.Samples.ImageTrackingSampleController::OnEnable()
+extern void ImageTrackingSampleController_OnEnable_mDBEA18856251BD7D36E27DB0EE53E3C08B4869CC (void);
+// 0x0000003D System.Void Qualcomm.Snapdragon.Spaces.Samples.ImageTrackingSampleController::OnDisable()
+extern void ImageTrackingSampleController_OnDisable_m95C003EF865DB53B62916E2D9606FED7DBF80E2B (void);
+// 0x0000003E System.Void Qualcomm.Snapdragon.Spaces.Samples.ImageTrackingSampleController::OnTrackedImagesChanged(UnityEngine.XR.ARFoundation.ARTrackedImagesChangedEventArgs)
+extern void ImageTrackingSampleController_OnTrackedImagesChanged_m43D428480C4C29E3F9B08ADAA368B2D6ABDF30E0 (void);
+// 0x0000003F System.Boolean Qualcomm.Snapdragon.Spaces.Samples.ImageTrackingSampleController::CheckSubsystem()
+extern void ImageTrackingSampleController_CheckSubsystem_m048288A72374120D70761CFF580F1D2464EB6C98 (void);
+// 0x00000040 System.Void Qualcomm.Snapdragon.Spaces.Samples.ImageTrackingSampleController::.ctor()
+extern void ImageTrackingSampleController__ctor_m19E279225379EC8EDB5BC2ED39B8006CA954268F (void);
+// 0x00000041 System.Void Qualcomm.Snapdragon.Spaces.Samples.HandTrackingSampleChecker::OnValidate()
+extern void HandTrackingSampleChecker_OnValidate_mFA9CF0683A5EFE17F3D0DB8FCFC90A412B9F6A37 (void);
+// 0x00000042 System.Void Qualcomm.Snapdragon.Spaces.Samples.HandTrackingSampleChecker::OnEnable()
+extern void HandTrackingSampleChecker_OnEnable_mA8E6970960ED48DD5D78710D8FF43DFA318A2128 (void);
+// 0x00000043 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.HandTrackingSampleChecker::CheckRuntimeCameraPermissions()
+extern void HandTrackingSampleChecker_CheckRuntimeCameraPermissions_m993DAF557B534B744D573183F65829087055C101 (void);
+// 0x00000044 System.Void Qualcomm.Snapdragon.Spaces.Samples.HandTrackingSampleChecker::.ctor()
+extern void HandTrackingSampleChecker__ctor_m7B2CE6378CFBB65809CBBB2F7E3861FAF5FCC8CF (void);
+// 0x00000045 System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::Start()
+extern void MainMenuSampleController_Start_mE470F1CDC6B3D1946386A2F4ACB5B2934391A9D4 (void);
+// 0x00000046 System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::OnEnable()
+extern void MainMenuSampleController_OnEnable_m8E2F42B4008E0DD1293D9E7F255137FB26342100 (void);
+// 0x00000047 System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::OnDisable()
+extern void MainMenuSampleController_OnDisable_m12B2040808F06210271C1FC4A82D843717603EE7 (void);
+// 0x00000048 System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::OnTouchpadInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void MainMenuSampleController_OnTouchpadInput_mF64FFA54B9E5D6A894F454CD9ADA7F226B8E7408 (void);
+// 0x00000049 System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::OnInfoButtonPress()
+extern void MainMenuSampleController_OnInfoButtonPress_m00B494198F963770CE845528AEA5C4E0358B8F6B (void);
+// 0x0000004A System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::OnVerticalScrollViewChanged(System.Single)
+extern void MainMenuSampleController_OnVerticalScrollViewChanged_m638CCBC01611AFCF503C3D2D395F2D6D8A37A874 (void);
+// 0x0000004B System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::OnInputSwitch(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void MainMenuSampleController_OnInputSwitch_m0E7D3479E20BFBD03170A0B65B8E155F172F71E8 (void);
+// 0x0000004C System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::TogglePassthroughCheckbox()
+extern void MainMenuSampleController_TogglePassthroughCheckbox_m726282EA9B9483ED16F4C033F01D26340E01CAEA (void);
+// 0x0000004D System.Void Qualcomm.Snapdragon.Spaces.Samples.MainMenuSampleController::.ctor()
+extern void MainMenuSampleController__ctor_mD057C627722AC87BF219721D8B84C3E99554D6A3 (void);
+// 0x0000004E System.Void Qualcomm.Snapdragon.Spaces.Samples.PlaneDetectionSampleController::Start()
+extern void PlaneDetectionSampleController_Start_mA7C0C878F19097960C80CB5E3B398F8DEC3C0B4E (void);
+// 0x0000004F System.Void Qualcomm.Snapdragon.Spaces.Samples.PlaneDetectionSampleController::OnToggleConvexHull(System.Boolean)
+extern void PlaneDetectionSampleController_OnToggleConvexHull_m2C7DD353915FECBD46481DF459FC9DDFD837F816 (void);
+// 0x00000050 System.Void Qualcomm.Snapdragon.Spaces.Samples.PlaneDetectionSampleController::Awake()
+extern void PlaneDetectionSampleController_Awake_m13D1E9ACE76181266C584CB73AE9D0B870BC4B0B (void);
+// 0x00000051 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.PlaneDetectionSampleController::CheckSubsystem()
+extern void PlaneDetectionSampleController_CheckSubsystem_mB909F7805F16E7A16EB068E964DAC5B0CBBA0922 (void);
+// 0x00000052 System.Void Qualcomm.Snapdragon.Spaces.Samples.PlaneDetectionSampleController::.ctor()
+extern void PlaneDetectionSampleController__ctor_m41A53FABDB9D40F19E27BB382A30D5B3AB1EA1BA (void);
+// 0x00000053 System.Void Qualcomm.Snapdragon.Spaces.Samples.SpatialMeshingSampleController::Awake()
+extern void SpatialMeshingSampleController_Awake_m76AA06C8F63E04F4D15708792AACF2E628D2E8EB (void);
+// 0x00000054 System.Void Qualcomm.Snapdragon.Spaces.Samples.SpatialMeshingSampleController::OnEnable()
+extern void SpatialMeshingSampleController_OnEnable_m2D2B9AE74CC23F11CF59B38CBE2BC93C663E5C11 (void);
+// 0x00000055 System.Void Qualcomm.Snapdragon.Spaces.Samples.SpatialMeshingSampleController::OnDisable()
+extern void SpatialMeshingSampleController_OnDisable_m68A997CA96C8AA34EDBE8193B8E9F6BCFA4AADC6 (void);
+// 0x00000056 System.Void Qualcomm.Snapdragon.Spaces.Samples.SpatialMeshingSampleController::OnMeshesChanged(UnityEngine.XR.ARFoundation.ARMeshesChangedEventArgs)
+extern void SpatialMeshingSampleController_OnMeshesChanged_m709C9F6A5498F92F44230C7739CFBFA481C071B1 (void);
+// 0x00000057 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.SpatialMeshingSampleController::CheckSubsystem()
+extern void SpatialMeshingSampleController_CheckSubsystem_m036D60C3982E69006809A5F1E86C06AAEC1CE6D5 (void);
+// 0x00000058 System.Void Qualcomm.Snapdragon.Spaces.Samples.SpatialMeshingSampleController::.ctor()
+extern void SpatialMeshingSampleController__ctor_m157B2BEF02472C90F96CFC2AB32187F3CC92568F (void);
+// 0x00000059 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRITSampleController::OnButtonPress(System.String)
+extern void XRITSampleController_OnButtonPress_m524DA9009E41DD39C1A88D7AC654AC65AD1A74DE (void);
+// 0x0000005A System.Void Qualcomm.Snapdragon.Spaces.Samples.XRITSampleController::OnScrollValueChanged(System.Single)
+extern void XRITSampleController_OnScrollValueChanged_mDA21B6D45EBB0477B73954D8DDDE8A209843826A (void);
+// 0x0000005B System.Void Qualcomm.Snapdragon.Spaces.Samples.XRITSampleController::Update()
+extern void XRITSampleController_Update_mEA6A44661B5A9F31D168C8CB9E290CA786A37FB2 (void);
+// 0x0000005C System.Void Qualcomm.Snapdragon.Spaces.Samples.XRITSampleController::.ctor()
+extern void XRITSampleController__ctor_m8891A978D711EB1342705A65B856C80B3DD73D45 (void);
+// 0x0000005D System.Void Qualcomm.Snapdragon.Spaces.Samples.EditorCameraController::.ctor()
+extern void EditorCameraController__ctor_mBFAF08AD50338AFD00E915830CE54F6063D9B8B7 (void);
+// 0x0000005E System.Boolean Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::get_IsHovering()
+extern void GazeInteractor_get_IsHovering_m4961CCEFD7AA5D8E16366627ADC3A67B86E70A5A (void);
+// 0x0000005F System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::Start()
+extern void GazeInteractor_Start_m26E787B2D5F9FC08655B453E29F9BD775D13B0AC (void);
+// 0x00000060 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::OnEnable()
+extern void GazeInteractor_OnEnable_mC65566DDB5E1AD8D14FE746E73F1F8F38B33C9C4 (void);
+// 0x00000061 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::OnDisable()
+extern void GazeInteractor_OnDisable_m6FFF1A885001EDBDAC8F96F4AAF12420F063EF58 (void);
+// 0x00000062 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::Update()
+extern void GazeInteractor_Update_m2CEE3502F7355930C652C08A8042C51100B692D5 (void);
+// 0x00000063 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::RaycastClosestHit(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void GazeInteractor_RaycastClosestHit_m8CC343B511CB6299CB6FB0D98B30AF7D09F00577 (void);
+// 0x00000064 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::CancelHoldingState(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void GazeInteractor_CancelHoldingState_mD990FF46AAF8305EF1B52FD56427C5733FCB3A19 (void);
+// 0x00000065 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::UpdateHoldingPhysics()
+extern void GazeInteractor_UpdateHoldingPhysics_mE5F222A360BD051D25ACDA8B80CBB3E11CD0DB9C (void);
+// 0x00000066 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::UpdateGazeUI()
+extern void GazeInteractor_UpdateGazeUI_m090A27B2C9F58156C3E7A30A3CE245E81C77BF57 (void);
+// 0x00000067 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::RaycastUI(System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>&,UnityEngine.EventSystems.PointerEventData&,UnityEngine.Vector2&)
+extern void GazeInteractor_RaycastUI_m665E2CE3E24715132B4656CDA9774C1500374DA8 (void);
+// 0x00000068 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::SetPointerPosition(UnityEngine.Vector3,UnityEngine.Vector3)
+extern void GazeInteractor_SetPointerPosition_m0F1E9E087BA5E5947521AE7C2F0D101554A081FC (void);
+// 0x00000069 System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::ResetPointerPosition(UnityEngine.Vector3)
+extern void GazeInteractor_ResetPointerPosition_m010394D3772B74BC1BAD990016312F7CBC08BC39 (void);
+// 0x0000006A System.Void Qualcomm.Snapdragon.Spaces.Samples.GazeInteractor::.ctor()
+extern void GazeInteractor__ctor_mCF797D8539343B4B3A9E498509B07A88FA854DC6 (void);
+// 0x0000006B System.Void Qualcomm.Snapdragon.Spaces.Samples.InputDataBlendshapes::.ctor()
+extern void InputDataBlendshapes__ctor_mA3AE270EE8DD3BE627EC945340D1546225E924EF (void);
+// 0x0000006C System.Void Qualcomm.Snapdragon.Spaces.Samples.MirrorARCameraPose::Start()
+extern void MirrorARCameraPose_Start_m4028AB9EFA5796059281400B66E74FE7E90FFF97 (void);
+// 0x0000006D System.Void Qualcomm.Snapdragon.Spaces.Samples.MirrorARCameraPose::Update()
+extern void MirrorARCameraPose_Update_mEFE84300F65EE4B0F2DC36B4F3C180FBC192ADCC (void);
+// 0x0000006E System.Void Qualcomm.Snapdragon.Spaces.Samples.MirrorARCameraPose::.ctor()
+extern void MirrorARCameraPose__ctor_mBF6A5C601290C3CE9DD91879A9C74793D53B5A88 (void);
+// 0x0000006F System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::Awake()
+extern void XRControllerInputAnimation_Awake_mE5EA73C8CF3A5117BC272DC77077AA034742725B (void);
+// 0x00000070 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::OnEnable()
+extern void XRControllerInputAnimation_OnEnable_m40893CAA137905CDAFCFA8AA2CBD9F7C28BA7612 (void);
+// 0x00000071 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::OnDisable()
+extern void XRControllerInputAnimation_OnDisable_m0B392FB37497FA1CDFBB4FCA3E87AD947A4C8BE6 (void);
+// 0x00000072 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::DeviceConnected(UnityEngine.XR.InputDevice)
+extern void XRControllerInputAnimation_DeviceConnected_mCC185D5BF9351C34C9B059209B82C337B7DA17A4 (void);
+// 0x00000073 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::DeviceDisconnected(UnityEngine.XR.InputDevice)
+extern void XRControllerInputAnimation_DeviceDisconnected_m024938B6651CF9403C25CB265C9794FB7D04A928 (void);
+// 0x00000074 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::Update()
+extern void XRControllerInputAnimation_Update_m3679DB5AC548A504613D0B854EB4BC81E27ED80C (void);
+// 0x00000075 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::UpdateAnimations(System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>)
+extern void XRControllerInputAnimation_UpdateAnimations_m140621A98C9D4F50D9D283AF7C98FD414CF7CC8E (void);
+// 0x00000076 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::SetBlendshapeValue(System.Int32,System.Single)
+extern void XRControllerInputAnimation_SetBlendshapeValue_mFD0BDAC95A20CF5F0B97F382554A2E5293C8FB1B (void);
+// 0x00000077 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::ResetBlendshapeValue(System.Int32)
+extern void XRControllerInputAnimation_ResetBlendshapeValue_mE89477C66A3E173419489BE93F9F8A0F561AC2B7 (void);
+// 0x00000078 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerInputAnimation::.ctor()
+extern void XRControllerInputAnimation__ctor_m45A621EB78DB99D1D3093770BBB004474CEF2112 (void);
+// 0x00000079 System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerManager::ActivateController(Qualcomm.Snapdragon.Spaces.Samples.XRControllerProfile)
+extern void XRControllerManager_ActivateController_m1C7914758B73DAD6BEC2880CD59C06C41BB30E84 (void);
+// 0x0000007A System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerManager::ResetPositionAndRotation(UnityEngine.Transform)
+extern void XRControllerManager_ResetPositionAndRotation_m06128C875CB3D1770BF79F89F727D0CCC9A94B63 (void);
+// 0x0000007B System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerManager::SendHapticImpulse(System.Single,System.Single,System.Single)
+extern void XRControllerManager_SendHapticImpulse_m76AF5FA86BB9168A82559E7FC10B936D6CC8D7E8 (void);
+// 0x0000007C System.Void Qualcomm.Snapdragon.Spaces.Samples.XRControllerManager::.ctor()
+extern void XRControllerManager__ctor_m6F106F596E03C7C205B65D4B0E12FA244F431D05 (void);
+// 0x0000007D UnityEngine.Transform Qualcomm.Snapdragon.Spaces.Samples.SampleController::get_ARCameraTransform()
+extern void SampleController_get_ARCameraTransform_mA4DEB85870C4FD97D1E5220E9928D097DA6C0A5A (void);
+// 0x0000007E System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::set_ARCameraTransform(UnityEngine.Transform)
+extern void SampleController_set_ARCameraTransform_mD7CC5885676C375CB372027B6559AD63A370C34F (void);
+// 0x0000007F System.Boolean Qualcomm.Snapdragon.Spaces.Samples.SampleController::get_ResetSessionOriginOnStart()
+extern void SampleController_get_ResetSessionOriginOnStart_m38F8FB2F31BEF7568CD075E18A7B745E0DA7DEC2 (void);
+// 0x00000080 Qualcomm.Snapdragon.Spaces.BaseRuntimeFeature Qualcomm.Snapdragon.Spaces.Samples.SampleController::get__baseRuntimeFeature()
+extern void SampleController_get__baseRuntimeFeature_m8DFF80C2878D9FB54AFDCBF480C0840618543CCB (void);
+// 0x00000081 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::set__baseRuntimeFeature(Qualcomm.Snapdragon.Spaces.BaseRuntimeFeature)
+extern void SampleController_set__baseRuntimeFeature_m1DFA4C6AAD503E258868C0DB52C94617117EBD7B (void);
+// 0x00000082 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.SampleController::get__isPassthroughOn()
+extern void SampleController_get__isPassthroughOn_mED3BAF1323BD14A9BAAF06C4B265FE88519DF1C2 (void);
+// 0x00000083 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::set__isPassthroughOn(System.Boolean)
+extern void SampleController_set__isPassthroughOn_m1B45F3065E856C65A32429F7F029E2DC807B379F (void);
+// 0x00000084 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::Start()
+extern void SampleController_Start_m61CD38D28C1DF57E17FDD4AFD429F4765C46A3D0 (void);
+// 0x00000085 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::Update()
+extern void SampleController_Update_m8DDA6A4E9920389DB341037160B42EA3CC2D0B17 (void);
+// 0x00000086 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::Quit()
+extern void SampleController_Quit_mC62D3415EE31DDDFF1AFFC222B091901D80772FC (void);
+// 0x00000087 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::SendHapticImpulse(System.Single,System.Single,System.Single)
+extern void SampleController_SendHapticImpulse_m64B1C3B9D34553410986E029F16514F01E20B778 (void);
+// 0x00000088 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::OffsetSessionOrigin()
+extern void SampleController_OffsetSessionOrigin_mD9FB260AB07A312041D2D54BD51FCDC09F2048D4 (void);
+// 0x00000089 System.Boolean Qualcomm.Snapdragon.Spaces.Samples.SampleController::GetSubsystemCheck()
+extern void SampleController_GetSubsystemCheck_m53E5EA68293A34CF56F49A24CBD1B3A62DE864F4 (void);
+// 0x0000008A System.Boolean Qualcomm.Snapdragon.Spaces.Samples.SampleController::CheckSubsystem()
+extern void SampleController_CheckSubsystem_mB9385986CBB4B513C043CD59167B19012F490C8C (void);
+// 0x0000008B System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::OnEnable()
+extern void SampleController_OnEnable_m994F610D0C1F6C299E5F2021FF634A1FAAC70144 (void);
+// 0x0000008C System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::OnDisable()
+extern void SampleController_OnDisable_m1E4AA78160434940D9B68E2A218CC767F51DB837 (void);
+// 0x0000008D System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::OnSwitchInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SampleController_OnSwitchInput_m5742156EE29C6E59962C7F113998E48F3F5B37B6 (void);
+// 0x0000008E System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::OnPrimaryButtonPressed(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void SampleController_OnPrimaryButtonPressed_m22F13015B8B3E0168AE4EC3B03B24F00BD224BE6 (void);
+// 0x0000008F System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::TogglePassthroughWithCheckbox()
+extern void SampleController_TogglePassthroughWithCheckbox_mCA45B5A6243949D261ACC47AB115210077C1A2CC (void);
+// 0x00000090 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::TogglePassthrough()
+extern void SampleController_TogglePassthrough_mBA539F27DF9C830CA1B16E3C0DFA0BBD1B2EDA62 (void);
+// 0x00000091 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::RegisterXRProfiles()
+extern void SampleController_RegisterXRProfiles_m6B88A71FAAEB83BDC8384CC0FF2B3819CFEFE4AA (void);
+// 0x00000092 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::RegisterConnectedDevice(UnityEngine.XR.InputDevice)
+extern void SampleController_RegisterConnectedDevice_m90D1DB4064F440C9103285C0EDEF4047F6EF1977 (void);
+// 0x00000093 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::SendControllerProfileToManager(Qualcomm.Snapdragon.Spaces.Samples.XRControllerManager)
+extern void SampleController_SendControllerProfileToManager_m36BACC0C590B1240888B65051616146CDEE3C5C6 (void);
+// 0x00000094 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController::.ctor()
+extern void SampleController__ctor_m4255067B111F3616672D2FB79240151F6BBBC8E8 (void);
+// 0x00000095 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController/PrimaryButtonPressed::.ctor(System.Object,System.IntPtr)
+extern void PrimaryButtonPressed__ctor_m8BF448E8447769C496503882BEE8E057809A3E94 (void);
+// 0x00000096 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController/PrimaryButtonPressed::Invoke()
+extern void PrimaryButtonPressed_Invoke_mFF9119BE719162EC18BB95422213D4B84B12C46F (void);
+// 0x00000097 System.IAsyncResult Qualcomm.Snapdragon.Spaces.Samples.SampleController/PrimaryButtonPressed::BeginInvoke(System.AsyncCallback,System.Object)
+extern void PrimaryButtonPressed_BeginInvoke_m3CE294081F97D0AE761D11C6AC16EEE4D0E230C3 (void);
+// 0x00000098 System.Void Qualcomm.Snapdragon.Spaces.Samples.SampleController/PrimaryButtonPressed::EndInvoke(System.IAsyncResult)
+extern void PrimaryButtonPressed_EndInvoke_m062A2A41225DED7BCD9F50F0399B3D47508C1C87 (void);
+// 0x00000099 System.Void Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController::Start()
+extern void FloatingPanelController_Start_mA1667B89BF613AFB7644AA9C8EA9DD0EF0745150 (void);
+// 0x0000009A System.Void Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController::Update()
+extern void FloatingPanelController_Update_mDE0E0089E79FD5F258650DF42444A6CB369FE802 (void);
+// 0x0000009B System.Void Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController::SwitchToScene(System.String)
+extern void FloatingPanelController_SwitchToScene_m5D1449939E55962CCEF374EE0EFFFE0CC24C29A5 (void);
+// 0x0000009C System.Void Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController::AdjustPanelPosition()
+extern void FloatingPanelController_AdjustPanelPosition_m1FC371BA9A352E0D1CB23647C47FDC12D0563860 (void);
+// 0x0000009D System.Single Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController::GetAdjustedDelta(System.Single,System.Single)
+extern void FloatingPanelController_GetAdjustedDelta_mF82D8527D503328801F8E580B1CEA00BA9C825FD (void);
+// 0x0000009E System.Void Qualcomm.Snapdragon.Spaces.Samples.FloatingPanelController::.ctor()
+extern void FloatingPanelController__ctor_m22BBD518555A27DC38F9BAAC09D5027E55CEAA38 (void);
+static Il2CppMethodPointer s_methodPointers[158] = 
+{
+	ComponentVersionDisplay_get_ComponentNameText_m293A520657688DE478C403831CBD2E5F0DA854B0,
+	ComponentVersionDisplay_set_ComponentNameText_m0D06537C61D0DD0FD2C7556A32334F904A7FD14D,
+	ComponentVersionDisplay_get_VersionIdentifierText_mD50A6722B461344A47B6E9E107B468B783BF77B6,
+	ComponentVersionDisplay_set_VersionIdentifierText_m0A8E9B1676B0853224E208BD2629AFE09605F585,
+	ComponentVersionDisplay_get_BuildIdentifierText_m79CE6A2AEC7D910D3D9CD9E939DF84B894D293CB,
+	ComponentVersionDisplay_set_BuildIdentifierText_m9E9DC57342E0857E73BC7F79E3466F2BF3046F25,
+	ComponentVersionDisplay_get_BuildDateTimeText_m400DC703790BDF4648EF2F7C89355FA020FF3D56,
+	ComponentVersionDisplay_set_BuildDateTimeText_mA2D62258B34D953962A7E7AFB462A898C15A8CE6,
+	ComponentVersionDisplay__ctor_m664EE207487BC7313F7E7D694668C9C01D9E90FB,
+	GazeHoverOverride__ctor_m3238EBF46E85A3ACB340A93579D460A4BBA39F03,
+	AnchorSampleController_get__onToggleChangedAction_m7995E95C60F511DD40C2E9C763F7E957F1068AF0,
+	AnchorSampleController_Awake_mFBF428DC8D1DCA2C3AE4F378B85F3559B59A4156,
+	AnchorSampleController_Start_mE39645C7494A73F74EC21EBE95145C7EA60E21BB,
+	AnchorSampleController_OnEnable_m939BAADC4DC3A705E0082F87253CE59BEEB84E74,
+	AnchorSampleController_OnDisable_m5595267F25FCC42BBF15AEFD026832F3D51C6756,
+	AnchorSampleController_OnCreateButtonClicked_m45D7686390E64DD7A1C667A47707E805715DCA13,
+	AnchorSampleController_OnTriggerAction_mC7B03BD24CE190D8183984F3B7A6310997C80EFF,
+	AnchorSampleController_OnAnchorsChanged_mF15095048794AADA9EA359376947F60293FB4D1F,
+	AnchorSampleController_Update_m6FB11FD011A3F86B822AD14B90306954D5298DAB,
+	AnchorSampleController_InstantiateGizmos_m458EF042D8530E8C715DB8C435631D394056300E,
+	AnchorSampleController_LoadAllSavedAnchors_m2AE3121BD194D278199F0A324B5D0FD2F8CE2207,
+	AnchorSampleController_ClearAnchorStore_mB7654422F115A8BCD03D327215130316AB132828,
+	AnchorSampleController_DestroyGizmos_m250F6874B798CF1BDB3D9B67B44D7F3C57692D49,
+	AnchorSampleController_DestroyGizmosCoroutine_m30C354202353660B4BEC01DA48C32EECC0174EB5,
+	AnchorSampleController_UpdateCreateButtonUI_m7751ABD90B48990CC7BC9274539FE777FB84E787,
+	AnchorSampleController_OnPointerEnterEvent_m4D2C18BBB2940B3A6BD3FC2DD52031E17503698F,
+	AnchorSampleController_OnPointerExitEvent_m3EDF9CB40D889FA480AFEC2617806187B36219F3,
+	AnchorSampleController_CheckSubsystem_mE02C113FCB32F317190C03480095F824F272EFA8,
+	AnchorSampleController__ctor_mF9D2ECD2E7F9F259398EB3C88A82ED241C141ABE,
+	AnchorSampleController_U3Cget__onToggleChangedActionU3Eb__25_0_mC0D33778DA6EFBA587C28AB04DA2413FE8AA0531,
+	AnchorSampleController_U3CStartU3Eb__27_0_m4B1D458F25523559F944ABEC3DA4B0BD371DFFF3,
+	AnchorSampleController_U3CInstantiateGizmosU3Eb__34_0_mB764D00958992050876E56B3E91AC14E787E6694,
+	U3CU3Ec__cctor_mB10CD9647F9931EA523F51987FE2366BE9FDEB01,
+	U3CU3Ec__ctor_mBFF4E6B9BF500E2D8E2761FA8260AA4C2DC71FC8,
+	U3CU3Ec_U3CLoadAllSavedAnchorsU3Eb__35_0_m736BB856355DE70D8A5F405B85116BCF4744067B,
+	U3CDestroyGizmosCoroutineU3Ed__38__ctor_m75D3673F56EE021D97D9C1E87C4CA8E1A4646D0F,
+	U3CDestroyGizmosCoroutineU3Ed__38_System_IDisposable_Dispose_mBDFABB75BBD56DD555BF68F871531D69771956F7,
+	U3CDestroyGizmosCoroutineU3Ed__38_MoveNext_m35713AB4F0CF3AB675345CF5174DEAFD70E8C17A,
+	U3CDestroyGizmosCoroutineU3Ed__38_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBCF46FFA910B5C5B0B6AB58CFF0DFC738C289BDE,
+	U3CDestroyGizmosCoroutineU3Ed__38_System_Collections_IEnumerator_Reset_mE1FDA3F57A28B07406AEAAF252DF528738EB1715,
+	U3CDestroyGizmosCoroutineU3Ed__38_System_Collections_IEnumerator_get_Current_mCF8A64F2F2540ADC7524345AD035FA1524AD6C30,
+	CameraFrameAccessSampleController_Awake_m928D0DBFEB116055F2E88D8C3DD8CD71722C9D15,
+	CameraFrameAccessSampleController_Start_mBF793A9875F2A524FFFEA3A218F428F39C31B749,
+	CameraFrameAccessSampleController_Update_m1AB6825707A31A823DFAE31364EF7AFF6A614A06,
+	CameraFrameAccessSampleController_UpdateCameraTexture_m9165D3F1DA86BFFAC9271999AF31935D948DCA06,
+	CameraFrameAccessSampleController_UpdateCameraIntrinsics_m7233520B82D4F00F6159B76056D0223FA4EF5CE4,
+	CameraFrameAccessSampleController_FindSupportedConfiguration_m1ADDE8930F47934BBAAB19C28769D79D99C159CE,
+	CameraFrameAccessSampleController_CheckDeviceSupported_m4BFE13F910DDCA7110E5FEB1882D4E74B1D3F0C0,
+	CameraFrameAccessSampleController_OnDeviceNotSupported_m37D9C8604C9CB44F552668135DD2E01C8CDDB8BB,
+	CameraFrameAccessSampleController_OnPausePress_mD41F2553832028C58F80987EECE362883689DC40,
+	CameraFrameAccessSampleController_OnResumePress_mB933CE1C465095D2629F4EFC19DDACFFEA73C17C,
+	CameraFrameAccessSampleController_CheckSubsystem_mF029F85A5AA1CB92E1F2DAEE30F8854091253AE0,
+	CameraFrameAccessSampleController__ctor_m720C1F339975EFB6546EED890E4619BFA7D5910D,
+	HitTestingSampleController_Awake_mA765655A37D2F019E8DBD7CECE58106015943CBC,
+	HitTestingSampleController_Start_m26B9AEDC53EA3F0C0D275637D4119433E0D85D8A,
+	HitTestingSampleController_Update_m6F5070C0F84772D802EBE9368928CE6E40C75469,
+	HitTestingSampleController_CastRay_mFC22A0A6EBD40283A54A37411F2E276F07CF1C0D,
+	HitTestingSampleController_CheckSubsystem_mEEF1BD3AFB0D8832F837C877E9A6C63D8A6C856B,
+	HitTestingSampleController__ctor_m3B9B8A335694B6DBA1ECE2575E45C7133E721BE8,
+	ImageTrackingSampleController_OnEnable_mDBEA18856251BD7D36E27DB0EE53E3C08B4869CC,
+	ImageTrackingSampleController_OnDisable_m95C003EF865DB53B62916E2D9606FED7DBF80E2B,
+	ImageTrackingSampleController_OnTrackedImagesChanged_m43D428480C4C29E3F9B08ADAA368B2D6ABDF30E0,
+	ImageTrackingSampleController_CheckSubsystem_m048288A72374120D70761CFF580F1D2464EB6C98,
+	ImageTrackingSampleController__ctor_m19E279225379EC8EDB5BC2ED39B8006CA954268F,
+	HandTrackingSampleChecker_OnValidate_mFA9CF0683A5EFE17F3D0DB8FCFC90A412B9F6A37,
+	HandTrackingSampleChecker_OnEnable_mA8E6970960ED48DD5D78710D8FF43DFA318A2128,
+	HandTrackingSampleChecker_CheckRuntimeCameraPermissions_m993DAF557B534B744D573183F65829087055C101,
+	HandTrackingSampleChecker__ctor_m7B2CE6378CFBB65809CBBB2F7E3861FAF5FCC8CF,
+	MainMenuSampleController_Start_mE470F1CDC6B3D1946386A2F4ACB5B2934391A9D4,
+	MainMenuSampleController_OnEnable_m8E2F42B4008E0DD1293D9E7F255137FB26342100,
+	MainMenuSampleController_OnDisable_m12B2040808F06210271C1FC4A82D843717603EE7,
+	MainMenuSampleController_OnTouchpadInput_mF64FFA54B9E5D6A894F454CD9ADA7F226B8E7408,
+	MainMenuSampleController_OnInfoButtonPress_m00B494198F963770CE845528AEA5C4E0358B8F6B,
+	MainMenuSampleController_OnVerticalScrollViewChanged_m638CCBC01611AFCF503C3D2D395F2D6D8A37A874,
+	MainMenuSampleController_OnInputSwitch_m0E7D3479E20BFBD03170A0B65B8E155F172F71E8,
+	MainMenuSampleController_TogglePassthroughCheckbox_m726282EA9B9483ED16F4C033F01D26340E01CAEA,
+	MainMenuSampleController__ctor_mD057C627722AC87BF219721D8B84C3E99554D6A3,
+	PlaneDetectionSampleController_Start_mA7C0C878F19097960C80CB5E3B398F8DEC3C0B4E,
+	PlaneDetectionSampleController_OnToggleConvexHull_m2C7DD353915FECBD46481DF459FC9DDFD837F816,
+	PlaneDetectionSampleController_Awake_m13D1E9ACE76181266C584CB73AE9D0B870BC4B0B,
+	PlaneDetectionSampleController_CheckSubsystem_mB909F7805F16E7A16EB068E964DAC5B0CBBA0922,
+	PlaneDetectionSampleController__ctor_m41A53FABDB9D40F19E27BB382A30D5B3AB1EA1BA,
+	SpatialMeshingSampleController_Awake_m76AA06C8F63E04F4D15708792AACF2E628D2E8EB,
+	SpatialMeshingSampleController_OnEnable_m2D2B9AE74CC23F11CF59B38CBE2BC93C663E5C11,
+	SpatialMeshingSampleController_OnDisable_m68A997CA96C8AA34EDBE8193B8E9F6BCFA4AADC6,
+	SpatialMeshingSampleController_OnMeshesChanged_m709C9F6A5498F92F44230C7739CFBFA481C071B1,
+	SpatialMeshingSampleController_CheckSubsystem_m036D60C3982E69006809A5F1E86C06AAEC1CE6D5,
+	SpatialMeshingSampleController__ctor_m157B2BEF02472C90F96CFC2AB32187F3CC92568F,
+	XRITSampleController_OnButtonPress_m524DA9009E41DD39C1A88D7AC654AC65AD1A74DE,
+	XRITSampleController_OnScrollValueChanged_mDA21B6D45EBB0477B73954D8DDDE8A209843826A,
+	XRITSampleController_Update_mEA6A44661B5A9F31D168C8CB9E290CA786A37FB2,
+	XRITSampleController__ctor_m8891A978D711EB1342705A65B856C80B3DD73D45,
+	EditorCameraController__ctor_mBFAF08AD50338AFD00E915830CE54F6063D9B8B7,
+	GazeInteractor_get_IsHovering_m4961CCEFD7AA5D8E16366627ADC3A67B86E70A5A,
+	GazeInteractor_Start_m26E787B2D5F9FC08655B453E29F9BD775D13B0AC,
+	GazeInteractor_OnEnable_mC65566DDB5E1AD8D14FE746E73F1F8F38B33C9C4,
+	GazeInteractor_OnDisable_m6FFF1A885001EDBDAC8F96F4AAF12420F063EF58,
+	GazeInteractor_Update_m2CEE3502F7355930C652C08A8042C51100B692D5,
+	GazeInteractor_RaycastClosestHit_m8CC343B511CB6299CB6FB0D98B30AF7D09F00577,
+	GazeInteractor_CancelHoldingState_mD990FF46AAF8305EF1B52FD56427C5733FCB3A19,
+	GazeInteractor_UpdateHoldingPhysics_mE5F222A360BD051D25ACDA8B80CBB3E11CD0DB9C,
+	GazeInteractor_UpdateGazeUI_m090A27B2C9F58156C3E7A30A3CE245E81C77BF57,
+	GazeInteractor_RaycastUI_m665E2CE3E24715132B4656CDA9774C1500374DA8,
+	GazeInteractor_SetPointerPosition_m0F1E9E087BA5E5947521AE7C2F0D101554A081FC,
+	GazeInteractor_ResetPointerPosition_m010394D3772B74BC1BAD990016312F7CBC08BC39,
+	GazeInteractor__ctor_mCF797D8539343B4B3A9E498509B07A88FA854DC6,
+	InputDataBlendshapes__ctor_mA3AE270EE8DD3BE627EC945340D1546225E924EF,
+	MirrorARCameraPose_Start_m4028AB9EFA5796059281400B66E74FE7E90FFF97,
+	MirrorARCameraPose_Update_mEFE84300F65EE4B0F2DC36B4F3C180FBC192ADCC,
+	MirrorARCameraPose__ctor_mBF6A5C601290C3CE9DD91879A9C74793D53B5A88,
+	XRControllerInputAnimation_Awake_mE5EA73C8CF3A5117BC272DC77077AA034742725B,
+	XRControllerInputAnimation_OnEnable_m40893CAA137905CDAFCFA8AA2CBD9F7C28BA7612,
+	XRControllerInputAnimation_OnDisable_m0B392FB37497FA1CDFBB4FCA3E87AD947A4C8BE6,
+	XRControllerInputAnimation_DeviceConnected_mCC185D5BF9351C34C9B059209B82C337B7DA17A4,
+	XRControllerInputAnimation_DeviceDisconnected_m024938B6651CF9403C25CB265C9794FB7D04A928,
+	XRControllerInputAnimation_Update_m3679DB5AC548A504613D0B854EB4BC81E27ED80C,
+	XRControllerInputAnimation_UpdateAnimations_m140621A98C9D4F50D9D283AF7C98FD414CF7CC8E,
+	XRControllerInputAnimation_SetBlendshapeValue_mFD0BDAC95A20CF5F0B97F382554A2E5293C8FB1B,
+	XRControllerInputAnimation_ResetBlendshapeValue_mE89477C66A3E173419489BE93F9F8A0F561AC2B7,
+	XRControllerInputAnimation__ctor_m45A621EB78DB99D1D3093770BBB004474CEF2112,
+	XRControllerManager_ActivateController_m1C7914758B73DAD6BEC2880CD59C06C41BB30E84,
+	XRControllerManager_ResetPositionAndRotation_m06128C875CB3D1770BF79F89F727D0CCC9A94B63,
+	XRControllerManager_SendHapticImpulse_m76AF5FA86BB9168A82559E7FC10B936D6CC8D7E8,
+	XRControllerManager__ctor_m6F106F596E03C7C205B65D4B0E12FA244F431D05,
+	SampleController_get_ARCameraTransform_mA4DEB85870C4FD97D1E5220E9928D097DA6C0A5A,
+	SampleController_set_ARCameraTransform_mD7CC5885676C375CB372027B6559AD63A370C34F,
+	SampleController_get_ResetSessionOriginOnStart_m38F8FB2F31BEF7568CD075E18A7B745E0DA7DEC2,
+	SampleController_get__baseRuntimeFeature_m8DFF80C2878D9FB54AFDCBF480C0840618543CCB,
+	SampleController_set__baseRuntimeFeature_m1DFA4C6AAD503E258868C0DB52C94617117EBD7B,
+	SampleController_get__isPassthroughOn_mED3BAF1323BD14A9BAAF06C4B265FE88519DF1C2,
+	SampleController_set__isPassthroughOn_m1B45F3065E856C65A32429F7F029E2DC807B379F,
+	SampleController_Start_m61CD38D28C1DF57E17FDD4AFD429F4765C46A3D0,
+	SampleController_Update_m8DDA6A4E9920389DB341037160B42EA3CC2D0B17,
+	SampleController_Quit_mC62D3415EE31DDDFF1AFFC222B091901D80772FC,
+	SampleController_SendHapticImpulse_m64B1C3B9D34553410986E029F16514F01E20B778,
+	SampleController_OffsetSessionOrigin_mD9FB260AB07A312041D2D54BD51FCDC09F2048D4,
+	SampleController_GetSubsystemCheck_m53E5EA68293A34CF56F49A24CBD1B3A62DE864F4,
+	SampleController_CheckSubsystem_mB9385986CBB4B513C043CD59167B19012F490C8C,
+	SampleController_OnEnable_m994F610D0C1F6C299E5F2021FF634A1FAAC70144,
+	SampleController_OnDisable_m1E4AA78160434940D9B68E2A218CC767F51DB837,
+	SampleController_OnSwitchInput_m5742156EE29C6E59962C7F113998E48F3F5B37B6,
+	SampleController_OnPrimaryButtonPressed_m22F13015B8B3E0168AE4EC3B03B24F00BD224BE6,
+	SampleController_TogglePassthroughWithCheckbox_mCA45B5A6243949D261ACC47AB115210077C1A2CC,
+	SampleController_TogglePassthrough_mBA539F27DF9C830CA1B16E3C0DFA0BBD1B2EDA62,
+	SampleController_RegisterXRProfiles_m6B88A71FAAEB83BDC8384CC0FF2B3819CFEFE4AA,
+	SampleController_RegisterConnectedDevice_m90D1DB4064F440C9103285C0EDEF4047F6EF1977,
+	SampleController_SendControllerProfileToManager_m36BACC0C590B1240888B65051616146CDEE3C5C6,
+	SampleController__ctor_m4255067B111F3616672D2FB79240151F6BBBC8E8,
+	PrimaryButtonPressed__ctor_m8BF448E8447769C496503882BEE8E057809A3E94,
+	PrimaryButtonPressed_Invoke_mFF9119BE719162EC18BB95422213D4B84B12C46F,
+	PrimaryButtonPressed_BeginInvoke_m3CE294081F97D0AE761D11C6AC16EEE4D0E230C3,
+	PrimaryButtonPressed_EndInvoke_m062A2A41225DED7BCD9F50F0399B3D47508C1C87,
+	FloatingPanelController_Start_mA1667B89BF613AFB7644AA9C8EA9DD0EF0745150,
+	FloatingPanelController_Update_mDE0E0089E79FD5F258650DF42444A6CB369FE802,
+	FloatingPanelController_SwitchToScene_m5D1449939E55962CCEF374EE0EFFFE0CC24C29A5,
+	FloatingPanelController_AdjustPanelPosition_m1FC371BA9A352E0D1CB23647C47FDC12D0563860,
+	FloatingPanelController_GetAdjustedDelta_mF82D8527D503328801F8E580B1CEA00BA9C825FD,
+	FloatingPanelController__ctor_m22BBD518555A27DC38F9BAAC09D5027E55CEAA38,
+};
+static const int32_t s_InvokerIndices[158] = 
+{
+	5517,
+	4448,
+	5517,
+	4448,
+	5517,
+	4448,
+	5517,
+	4448,
+	5616,
+	5616,
+	5517,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	4587,
+	4331,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	5517,
+	4587,
+	5616,
+	5616,
+	5426,
+	5616,
+	4361,
+	4361,
+	4361,
+	8809,
+	5616,
+	4361,
+	4422,
+	5616,
+	5426,
+	5517,
+	5616,
+	5517,
+	5616,
+	5616,
+	5616,
+	4535,
+	5616,
+	5426,
+	5426,
+	5616,
+	5616,
+	5616,
+	5426,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	5426,
+	5616,
+	5616,
+	5616,
+	4352,
+	5426,
+	5616,
+	5616,
+	5616,
+	5426,
+	5616,
+	5616,
+	5616,
+	5616,
+	4587,
+	5616,
+	4482,
+	4587,
+	5616,
+	5616,
+	5616,
+	4361,
+	5616,
+	5426,
+	5616,
+	5616,
+	5616,
+	5616,
+	4338,
+	5426,
+	5616,
+	4448,
+	4482,
+	5616,
+	5616,
+	5616,
+	5426,
+	5616,
+	5616,
+	5616,
+	5616,
+	4587,
+	4587,
+	5616,
+	5616,
+	1137,
+	2537,
+	4524,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	5616,
+	4414,
+	4414,
+	5616,
+	4448,
+	2249,
+	4422,
+	5616,
+	4422,
+	4448,
+	1286,
+	5616,
+	5517,
+	4448,
+	5426,
+	5517,
+	4448,
+	5426,
+	4361,
+	5616,
+	5616,
+	5616,
+	1286,
+	5616,
+	5426,
+	5426,
+	5616,
+	5616,
+	4587,
+	4587,
+	5616,
+	5616,
+	5616,
+	4414,
+	4448,
+	5616,
+	2436,
+	5616,
+	1876,
+	4448,
+	5616,
+	5616,
+	4448,
+	5616,
+	1910,
+	5616,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	158,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
